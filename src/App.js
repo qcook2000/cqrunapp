@@ -13,11 +13,7 @@ import Header from './components/Header';
 type Props = {};
 export default class App extends Component<Props> {
   render() {
-    return (
-      <View style={styles.container}>
-        <Header />
-      </View>
-    );
+    return <Header headerText={'Hellos'} />;
   }
 }
 
